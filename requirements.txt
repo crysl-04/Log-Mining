@@ -1,3 +1,6 @@
 python-dotenv
 langchain_community
 langchain_core
+
+
+# pip install langchain_community -i https://pypi.tuna.tsinghua.edu.cn/simple

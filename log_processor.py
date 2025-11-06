@@ -17,7 +17,7 @@ MODEL_NAME = "minimax/minimax-m2:free"
 # MODEL_NAME = "mistralai/mistral-7b-instruct" # 替代选择：轻量级/低费用
 
 LOG_FILE_PATH = "sample.log"
-SYSTEM_PROMPT_BATCH = """你是一位专业的系统日志分析师。你的任务是根据提供的日志列表，判断每条日志是否包含严重错误或异常。
+SYSTEM_PROMPT = """你是一位专业的系统日志分析师。你的任务是根据提供的日志列表，判断每条日志是否包含严重错误或异常。
 请严格按照 JSON 数组格式输出结果，不要输出任何其他内容。
 JSON 格式要求：
 [

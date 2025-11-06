@@ -1,22 +1,22 @@
 [
     {
         "log": "2025-11-05 10:00:01 [INFO] System startup initiated successfully.",
-        "diagnosis": "实际API诊断结果 (LangChain): 系统启动成功，无异常。"
+        "diagnosis": "实际API诊断结果 (LangChain): [\n    {\n        \"index\": 1,\n        \"log\": \"2025-11-05 10:00:01 [INFO] System startup initiated successfully.\",\n        \"severity\": \"正常\",\n        \"diagnosis\": \"系统正常启动，无异常或错误迹象。\"\n    }\n]"
     },
     {
         "log": "2025-11-05 10:00:05 [WARN] Database connection timeout approaching, current latency: 550ms.",
-        "diagnosis": "实际API诊断结果 (LangChain): ⚠️ 数据库连接超时临近。当前延迟 550ms，若阈值≈500ms，连接可能不久后失败。潜在原因：数据库负载高/锁等待、网络拥塞/物理距离、慢查询/长事务、连接池参数不当。结论：存在中等风险，建议立即检查数据库负载、网络延迟、慢查询及连接池设置。"
+        "diagnosis": "实际API诊断结果 (LangChain): [\n    {\n        \"index\": 1,\n        \"log\": \"2025-11-05 10:00:05 [WARN] Database connection timeout approaching, current latency: 550ms.\",\n        \"severity\": \"警告\",\n        \"diagnosis\": \"数据库连接延迟已达到550ms，接近预设超时阈值，可能在短时间内导致连接中断或超时。\"\n    }\n]"
     },
     {
         "log": "2025-11-05 10:00:10 [INFO] User 'admin' logged in from 192.168.1.1.",
-        "diagnosis": "实际API诊断结果 (LangChain): 正常日志：管理员登录成功。"
+        "diagnosis": "实际API诊断结果 (LangChain): [\n    {\n        \"index\": 1,\n        \"log\": \"2025-11-05 10:00:10 [INFO] User 'admin' logged in from 192.168.1.1.\",\n        \"severity\": \"正常\",\n        \"diagnosis\": \"正常的用户登录事件，来源IP为192.168.1.1，属于可信网络，未检测到异常。\"\n    }\n]"
     },
     {
         "log": "2025-11-05 10:00:15 [ERROR] Fatal memory allocation failure at module 0xDEADBEEF. Process terminated.",
-        "diagnosis": "实际API诊断结果 (LangChain): 严重错误：致命内存分配失败在模块 0xDEADBEEF 导致进程终止。  \n潜在原因：系统内存不足或程序内存管理缺陷（如内存泄漏或分配过大）。"
+        "diagnosis": "实际API诊断结果 (LangChain): ```json\n[\n    {\n        \"index\": 1,\n        \"log\": \"2025-11-05 10:00:15 [ERROR] Fatal memory allocation failure at module 0xDEADBEEF. Process terminated.\",\n        \"severity\": \"严重\",\n        \"diagnosis\": \"致命内存分配失败，系统资源耗尽或内存管理异常，导致进程强制终止。需要检查系统内存使用情况、内存泄漏和模块完整性。\"\n    }\n]\n```"
     },
     {
         "log": "2025-11-05 10:00:20 [INFO] Background task 'cleanup' finished in 1.2s.",
-        "diagnosis": "实际API诊断结果 (LangChain): 正常。背景清理任务在1.2秒内完成执行，无错误或异常。"
+        "diagnosis": "实际API诊断结果 (LangChain): [\n    {\n        \"index\": 1,\n        \"log\": \"2025-11-05 10:00:20 [INFO] Background task 'cleanup' finished in 1.2s.\",\n        \"severity\": \"正常\",\n        \"diagnosis\": \"后台清理任务在1.2秒内正常完成，无异常或错误。\"\n    }\n]"
     }
 ]
