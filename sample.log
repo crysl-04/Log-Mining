@@ -1,0 +1,5 @@
+2025-11-05 10:00:01 [INFO] System startup initiated successfully.
+2025-11-05 10:00:05 [WARN] Database connection timeout approaching, current latency: 550ms.
+2025-11-05 10:00:10 [INFO] User 'admin' logged in from 192.168.1.1.
+2025-11-05 10:00:15 [ERROR] Fatal memory allocation failure at module 0xDEADBEEF. Process terminated.
+2025-11-05 10:00:20 [INFO] Background task 'cleanup' finished in 1.2s.
